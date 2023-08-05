@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.left img {
+  width: 70px;
+  height: 60px;
+}
+
+nav {
+  padding: 0 90px;
+  font-size: 13px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+.container {
+  padding: 0 10vw;
+  text-align: center;
+}
+header {
+  /* position: sticky; */
+  top: 0;
+  background: white;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 14px;
+  list-style-type: none;
+}
+.right-last{
+  display: flex;
+  margin-top: 13px;
+}
+nav .left ul{
+  margin-left: -15px;
+}
+
+@media (max-width:700px){
+  header{
+    height: 180px;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right{
+    flex-direction: column;
+  }
+  .right-last{
+    display: flex;
+    margin: 12px;
+  }
+  nav .left ul{
+    margin-left: -55px;
+  }
+  .section1{
+    width: 104vh;
+  }
+  .section3,.section4,.section5,.beauty{
+    width: 200vh;
+  }
+  .more-explore .more-explore2 .more-explore3{
+    width: 100vh;
+  }
+  .section1 .btn-r:after{
+    position: relative;
+    left: -835px;
+  }
+  .gadgets .btn-r:after{
+    position: relative;
+    left: -781px;
+    top: -93px;
+  }
+  .gadgets .btn-l:after{
+    position: relative;
+    top: -93px;
+    left: -13px;
+  }
+  .section13 .btn-r:after{
+    position: relative;
+    left: -4px;
+    top: 103px;
+  }
+  .section13 .btn-l:after{
+    position: relative;
+    left: 780px;
+    top: 103px;
+  }
+  .section7 .btn-r:after{
+    position: relative;
+    left: -695px;
+    top: 102px;
+  }
+  .section7 .btn-l:after{
+    position: relative;
+    top: 85px;
+    left:-22px;
+  }
+  .testimonials .swiper-wrapper { 
+    padding-right: 0px;
+  }
+  .testimonials .btn-r:after {
+    position: relative;
+    bottom: 35px;
+    left: -530px;
+  }
+  .testimonials .btn-l:after{
+    position: relative;
+    bottom: 35px;
+    left: 100px;
+  }
+
+}     
+.section1 {
+  background-color: #f3f3fa;
+  padding: 12px 0px;
+}
+/* .search {
+  width: 25vw;
+  padding: 7px 12px;
+  border: 0.2px solid rgb(211, 210, 214);
+  background: rgb(235, 235, 237);
+  border-radius: 5px;
+  margin-right: 12px;
+} */
+
+/* search section */
+.search {
+  position: relative;
+  height: 50px;
+  margin-right: 50px;
+  }
+  .search .input {
+  background-color: #fff;
+  border: 0;
+  font-size: 18px;
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  transition: width 0.3s ease;
+  }
+  .btn {
+    background-color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    transition: transform 0.3s ease;
+    }
+    .btn:focus,
+    .input:focus {
+    outline: none;
+    }
+  .search.active .input {
+    width: 200px;
+    }
+    .search.active .btn {
+    transform: translateX(198px);
+  }      
+
+.homeImg {
+  width: 80vw;
+  margin: 12px 0;
+}
+.swiper {
+  width: 90%;
+  height: fit-content;
+}
+.swiper-slide img {
+  width: 100%;
+}
+
+.trend {
+  text-align: center;
+  margin: 6px 0px;
+}
+.itemImg {
+  width: 18.7vw;
+  margin: 6px 12px;
+}
+.section2 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  padding: 8px 0px;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 12px 0px;
+}
+.section3 {
+  background-color: #f3f3fa;
+  text-align: center;
+}
+.watchImg {
+  /* width: 22.55vw; */
+  margin: 6px 12px;
+}
+.section4  {
+  background-color: #f3f3fa;
+  text-align: center;
+}
+.section5{
+  background-color: #f3f3fa;
+  text-align: center;
+}
+.mensection{
+  background-color: #f3f3fa;
+  text-align: center;
+
+}
+.mensection img{
+  margin: 9px 13px;
+}
+.westernImg {
+  /* width: 22.55vw; */
+  margin: 6px 12px;
+}
+.footwearImg {
+  /* width: 22.55vw; */
+  margin: 6px 12px;
+}
+footer {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-bottom: 20px;
+}
+#features {
+    padding: 41px 100px 26px 198px;
+    text-align: center;
+}
+.row {
+  display: flex;
+}
+.row .co{
+    justify-content: center;
+    margin: 0 -5px;
+    text-align: left;
+}
+.row .co ul li{
+    margin: 3px 0;
+    text-align: left;
+}
+.row .co ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+.footer-link {
+  text-align: center;
+}
+
+.footer-link ul {
+  list-style-type: none;
+}
+li a {
+  color: rgb(84, 79, 79);
+}
+hr {
+  color: rgb(30, 29, 29);
+}
+.footer-logo {
+  width: 65px;
+  height: 60px;
+}
+.footer-logo-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-logo-div h1 {
+  font-family: "PT Serif", serif;
+  margin-top: 6px;
+}
+.location-link {
+  padding: 12px 0px;
+}
+.location-link ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+.location-link ul li {
+  margin: 0px 12px;
+}
+.conditions {
+  margin: 0px 10px;
+  color: black;
+}
+.section6{
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  padding: 8px 0px;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 12px 0px;
+}
+.section7{
+  margin: 15px 1px;
+}
+.more-explore{
+  padding: 30px 0px;
+  margin: 15px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.more-explore2 {
+  padding: 30px 0px;
+  margin: 15px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.more-explore2 ul{
+  margin-bottom: 92px;
+}
+.more-explore3{
+  padding: 30px 0px;
+  margin: 15px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.more-explore3 ul{
+  margin-bottom: 92px;
+}
+
+.swiper-slide ul li{
+  display: inline-block;
+  width: 200px;
+  height: 90px;
+  margin: 6px 3px;
+}
+.more-explore h1{
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  padding: 8px 0px;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 12px 0px;
+  
+}
+.swiper-wrapper{
+  display: inline-block;
+  text-align: center;
+
+}
+.gadgetsImg{
+  width: fit-content;
+  height: fit-content;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-prev:after{
+  color: grey;
+  padding: 5px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+  color: grey;
+  padding: 5px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.beauty{
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.beautyProducts img{
+  width: 275px;
+  height: 410.99px;
+  margin: 8px 8px;
+}
+.beauty-heading{
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  padding: 8px 0px;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 12px 0px;
+}
+ .section1 .btn-l{
+  position: relative;
+  left: 13px;
+  top: -161px;
+} 
+.section1 .btn-r{
+  position: relative;
+  left: 1100px;
+    top: -183px
+}
+.gadget-div ul{
+  padding-left: 0px;
+} 
+.gadgets .btn-l{
+  position: relative;
+  top: -74px;
+  left: 24px;
+}
+.gadgets .btn-r{
+  position: relative;
+  top: -96px;
+  left: 1275px
+}
+.section13 .btn-l{
+  position: relative;
+  top: 134px;
+  left: -1250px;
+}
+.section13 .btn-r{
+  position: relative;
+  top: 134px;
+    left: -25px;
+}
+.section7 .btn-l{
+  position: relative;
+  top: -164px;
+  left: 23px;
+}
+.section7 .btn-r{
+  position: relative;
+  top: -205px;
+  left: 1233px;
+}
+.testimonials .btn-l{
+ position: relative;
+ bottom: 205px;
+ left: -115px;
+}
+.testimonials .btn-r{
+  position: relative;
+  bottom: 227px;
+  left: 1000px;
+}
+.right-last{
+  cursor: pointer;
+}
+header nav ul li{
+  cursor: pointer;
+}
+.testimonials .swiper-slide img{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  height: 355px;
+  width: 50%;
+  margin: 40px 20px;
+}
+.testimonials .swiper-slide{
+  display: flex;
+}
